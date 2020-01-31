@@ -37,8 +37,10 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
+  'syntax-highlighting' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'ssh'
 
 #
 # Autosuggestions
@@ -159,7 +161,7 @@ zstyle ':prezto:module:prompt' theme 'agnoster'
 #
 
 # Set the SSH identities to load into the agent.
-# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'personal_rsa'
 
 #
 # Syntax Highlighting
